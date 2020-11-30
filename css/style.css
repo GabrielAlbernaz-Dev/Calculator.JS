@@ -1,0 +1,39 @@
+body {
+ background-color: #202122!important;  
+}
+
+h1 {
+    font-family: 'Grandstander', cursive;
+    letter-spacing: 2px;  
+}
+
+span {
+    color: #dfd445;
+}
+
+button {
+    margin: 7px 7px 7px 0px!important;
+    box-shadow:inset 0 0 10px #2b2929;    
+}
+
+input {
+    border-radius: 6px;
+    border: 3px solid black!important;
+    
+}
+
+.result {
+    text-align: right;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: solid 1px #000;
+    box-shadow: 1px 1px 1px #000;
+}
+
+.calculator {
+   width: 35%;
+   padding:15px 0px 15px 0px;
+   box-shadow:inset 0 0 10px #2b2929;
+   border-radius: 6px;
+}
