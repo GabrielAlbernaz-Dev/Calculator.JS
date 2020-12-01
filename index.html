@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,4 +57,64 @@
 
 <script src="./JS/index.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator app</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+       <header>
+        <h1 class="text-center mt-4 mb-3 text-danger">Calculator<span>JS</span></h1>
+       </header>
+
+        <main>
+        <div class="row">
+            <div class="calculator bg-danger col-md-4 ml-auto mr-auto">
+                    <div class="row">
+                        <input class="result form-control col-md-11 ml-auto mr-auto" type="text" placeholder="0">
+                    </div>
+
+                    <div class="row ml-auto mr-auto">
+                        <button onclick="calcular('valor',7)" class="btn btn-primary ml-3 col-2">7</button>
+                        <button onclick="calcular('valor',8)" class="btn btn-primary col-2">8</button>
+                        <button onclick="calcular('valor',9)" class="btn btn-primary col-2">9</button>
+                        <button onclick="calcular('acao','c')" class="btn btn-primary ml-3 col">C</button>
+                    </div>
+                    
+                    <div class="row ml-auto mr-auto">
+                        <button onclick="calcular('valor',4)" class="btn btn-primary ml-3 col-2">4</button>
+                        <button onclick="calcular('valor',5)" class="btn btn-primary col-2">5</button>
+                        <button onclick="calcular('valor',6)" class="btn btn-primary col-2">6</button>
+                        <button onclick="calcular('acao','+')" class="btn btn-primary ml-3 col">+</button>
+                        <button onclick="calcular('acao','-')" class="btn btn-primary col">-</button>
+                    </div>
+
+                    <div class="row ml-auto mr-auto">
+                        <button onclick="calcular('valor',1)" class="btn btn-primary ml-3 col-2">1</button>
+                        <button onclick="calcular('valor',2)" class="btn btn-primary col-2">2</button>
+                        <button onclick="calcular('valor',3)" class="btn btn-primary col-2">3</button>
+                        <button onclick="calcular('acao','/')" class="btn btn-primary ml-3 col">/</button>
+                        <button onclick="calcular('acao','*')" class="btn btn-primary col">X</button>   
+                    </div>
+
+                    <div class="row ml-auto mr-auto">
+                        <button onclick="calcular('valor',0)" class="btn btn-primary ml-3 col-4">0</button>
+                        <button onclick="calcular('acao','.')" class="btn btn-primary col-2">.</button>
+                        <button onclick="calcular('acao','=')" class="btn btn-primary ml-3 col">=</button> 
+                    </div>
+            </div>
+        </div>
+        </main>
+   </div>
+
+<script src="./JS/index.js"></script>
+</body>
+>>>>>>> a0dce4a7528958adeff90166faa69391242c8737
 </html>
